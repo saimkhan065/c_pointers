@@ -19,9 +19,9 @@ int main() {
     printf("Length of str_1: %d\n", strLen(str_1)); // pass by reference
     printf("Length of str_2: %d\n", strLen(str_2));
     printf("Length of str_3: %d\n", strLen(str_3));
-    printf("square of number_1: %d", square_number(&number_1));
-    printf("square of number_2: %d", square_number(&number_2));
-    printf("square of number_3: %d", square_number(&number_3));
+    printf("square of number_1: %d\n", square_number(&number_1));
+    printf("square of number_2: %d\n", square_number(&number_2));
+    printf("square of number_3: %d\n", square_number(&number_3));
     return 0;
 }
 
