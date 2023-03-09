@@ -12,7 +12,7 @@ int main() {
     char str_2[] = "";
     char str_3[] = " ";
     //print statements
-    printf("Length of str_1: %d\n", strLen(str_1));
+    printf("Length of str_1: %d\n", strLen(str_1)); // pass by reference
     printf("Length of str_2: %d\n", strLen(str_2));
     printf("Length of str_3: %d\n", strLen(str_3));
     return 0;
